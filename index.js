@@ -1,3 +1,3 @@
-function printalert(){
-    alert("hello from javascript")
+function printalert(anytext){
+    alert(anytext)
 }
