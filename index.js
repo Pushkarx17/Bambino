@@ -2,6 +2,11 @@ function printalert(anytext){
     alert(anytext)
 }
 
-function forhover(anytext){
-    document.dis("mewo")
+
+function returnreply(){
+    let input = document.getElementById("userreply").value
+    const fs = require('fs')
+    fs.writeFile('reply.txt',input, (err) =>{
+        if (err) throw err;
+    })
 }
