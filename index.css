@@ -8,15 +8,31 @@
 .column {
     flex: 33.33%;
     padding: 5px;
+    text-align: center;
+    font: 1.5em Courier New;
 }
 
 .black{
-    background-color: black;
+    background-color: rgb(31,31,31);
     color: snow;
 
 }
 
 #underconstruction {
-    background-color: black;
+    background-color: rebeccapurple;
     text-decoration: line-through;
 }
+
+#shravyapdf{
+    color: red;
+    font: 1.2em Papyrus;
+
+}
+
+div {
+    padding: 20px;
+ } 
+
+ a {
+    color: rgb(161,194,250);
+ }
