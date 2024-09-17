@@ -1,21 +1,28 @@
+.nospace{
+    line-height: 0%;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-top: 120px;
+}
 .underline{
     text-decoration: underline;
 }
 .row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
   
 .column {
-    flex: 33.33%;
-    padding: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font: 1.5em Courier New;
 }
 
-.black{
-    background-color: rgb(31,31,31);
-    color: snow;
-
+.color{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
 }
 
 #underconstruction {
@@ -36,3 +43,76 @@ div {
  a {
     color: rgb(161,194,250);
  }
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.logos {
+    text-align: center;
+    word-spacing: 30px;
+}
+
+.conclude {
+    text-align: center;
+    font-size: xx-small;
+    line-height: 0%;
+}
+
+#more {display: none;}
+
+.column h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.column p {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.column a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.column img {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+blockquote {
+    font: Helvetica;
+    color: red;
+}
+
+.moref {
+    padding-top: 120px;
+    line-height: 30px;
+    font-family: Copperplate;
+}
