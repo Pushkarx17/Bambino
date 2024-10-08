@@ -11,12 +11,20 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
+    
 }
   
 .column {
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    border-radius: 12px;
+    
+}
+
+.column:hover{
+    transform: scale(1.023);
+    transition: transform 0.3s ease-in-out;
 }
 
 .color{
@@ -117,6 +125,12 @@ blockquote {
     font-family: Copperplate;
 }
 
+.thingsf{
+    color: #007BFF;
+    padding-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
 .quotes {
     color: blue;
 }
