@@ -134,3 +134,12 @@ blockquote {
 .quotes {
     color: blue;
 }
+
+#image{
+    background: url(ring.jpeg);
+    background-size: full;
+    height: 100vh;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px #f9f9f9;
+}
